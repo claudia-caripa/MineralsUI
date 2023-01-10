@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Composition</th>
+    <th>Color</th>
+    <th>H</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let mineral of minerals">
+      <td>{{mineral.name}}</td>
+      <td>{{mineral.composition}}</td>
+      <td>{{mineral.color}}</td>
+      <td>{{mineral.h}}</td>
+    </tr>
+  </tbody>
+</table>
